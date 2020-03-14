@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>-TokyoExperience</title>
+		<meta name="discription" content="ページの説明文">
+		<meta name="keywords" content="キーワード,キーワード">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- リセット -->
+		<link rel="stylesheet" href="css/reset.css">
+<!-- 共通 -->
+		<link rel="stylesheet" href="css/common.css">
+<!-- ページごと -->
+		<link rel="stylesheet" href="css/feature.css">
+<!-- フォント -->
+		<link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+<!-- jq -->		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="smooth">
+				<a href="#pagetop"><img src="images/sozai/icon3.png"></a>
+			</div>
+		</div>
+		
+		<header>
+		<div id="head">
+			<div class="icon clearfix">
+				<ul>
+					<li><a href="policy.html">Policy</a></li>
+					<li><a href="mailmg.html">メルマガ登録</a></li>
+					<li><a href=""><img src="images/sozai/icon1.png" alt="ツイッターへのリンク"></a></li>
+					<li><a href=""><img src="images/sozai/icon2.png" alt="インスタグラムへのリンク"></a></li>
+				</ul>
+			</div>
+			<div class="logo" id="pagetop">
+				<a href="index.html"><img src="images/sozai/logo1.png"></a>
+			</div>
+			<div id="gnav" class="clearfix">
+				<ul>
+					<li><a href="news.html">News<span>新着情報</span></a></li>
+					<li><a href="feature.html">Feature<span>特集</span></a></li>
+					<li><a href="serch.html">Search<span>さがす</span></a></li>
+					<li><a href="photo.html">Photo<span>フォト</span></a></li>
+					<li><a href="gift.html">Gift<span>おみやげ</span></a></li>
+					<li><a href="ques.html">Enquete<span>アンケート</span></a></li>
+				</ul>
+			</div>
+				<img src="images/head/head5.jpg" alt="イメージ画像" width="100%">
+		</div>
+		</header>
+
+		<main>
+			<div class="pankuzu">
+				<ol>
+					<li><a href="index.html">Top-トップ-</a></li>
+					<li>Feature-特集-</li>
+				</ol>
+			</div>
+			<div class="title">
+				<h1>Feature<span class="komoji">-特集-</span></h1>
+			</div>
+			<div class="contents clearfix">
+				<div class="subcontent">
+					<h2>伝統<span class="mini">×</span>未来</h2>
+					<p>人力車に乗って街並みをめぐることも、最新テクノロジーを駆使した技術に触れることも出来ます。<br>
+					東京は伝統と未来が交差する街です。</p>
+					<img src="images/sozai/feature1.png" alt="">
+				</div>
+				<div class="subcontent">
+					<h2>　粋<span class="mini">×</span>Kawaii</h2>
+					<p>「粋」な江戸の美学とどこかキッチュな「Kawaii」文化が混ざり合う、<br>
+					東京はシュールで誇張された雰囲気が魅力。</p>
+					<img src="images/sozai/feature2.png" alt="">
+				</div>
+				<div class="subcontent">
+					<h2>風流<span class="mini">×</span>グルメ</h2>
+					<p>桜を見ながら宴を楽しみ、屋形船乗ってグルメを堪能する、浴衣を着てお祭りへ行く。<br>
+					東京ならではの魅力です。</p>
+					<img src="images/sozai/feature3.png" alt="">
+				</div>
+				<div class="subcontent">
+					<h2>季節<span class="mini">×</span>彩り</h2>
+					<p>春は桜が咲き乱れ、夏は夜空を花火が彩り、秋は紅葉を楽しみ、冬は輝くイルミネーション。<br>
+					色とりどりの四季を楽しめます。</p>
+					<img src="images/sozai/feature4.png" alt="">
+				</div>
+				<div class="link">
+					<a href="#">過去の記事一覧へ</a>
+				</div>
+			</div><!-- contents -->
+			
+		</main>
+
+		<footer>
+			<div class="footmenu">
+				<a href="index.html"><img src="images/sozai/logo2.png" alt="TokyoExperience" width="100"></a>
+				<div class="footicon  clearfix">
+						<a href="#"><img src="images/sozai/icon1.png" alt="ツイッターアイコン"></a>
+						<a href="#"><img src="images/sozai/icon2.png" alt="インスタグラムアイコン"></a>
+				</div>
+				<div class="footnav clearfix">
+						<ul>
+							<li><a href="news.html">新着情報</a></li>
+							<li><a href=".html">特集</a></li>
+							<li><a href="serch.html">さがす</a></li>
+							<li><a href="photo.html">フォト</a></li>
+							<li><a href="gift.html">おみやげ</a></li>
+							<li><a href="ques.html">アンケート</a></li>
+							<li><a href="policy.html">Policy</a></li>
+							<li><a href="mailmgz.html">メルマガ登録</a></li>
+						</ul>
+				</div>
+			</div>
+			
+			<div class="copyright">
+				<p><small>(c) 2019 TokyoExperience</small></p>
+			</div>
+		</footer>
+	</body>
+	<script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 1000; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+	</script>
+</html>
+
+
